@@ -26,10 +26,3 @@ spec:
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
-        volumeMounts:
-        - name: cm-volume
-          mountPath: /opt/ibm/wlp/usr/servers/defaultServer/server.xml
-      volumes:
-      - name: cm-volume
-        configMap:
-          name: liberty-server-xml
