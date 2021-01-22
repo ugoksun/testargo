@@ -20,7 +20,7 @@ spec:
         app: liberty
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/liberty/websphere-liberty 
+      - image: image-registry.openshift-image-registry.svc:5000/testargo/websphere-liberty 
         imagePullPolicy: Always
         name: liberty
         resources: {}
