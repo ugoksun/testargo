@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: liberty
 spec:
-  host: liberty.apps.sasin.cp.fyre.ibm.com
+  host: liberty-argo.apps.sasin.cp.fyre.ibm.com
   port:
     targetPort: 9080-tcp
   to:
